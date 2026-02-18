@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="2"
+    android:padding="16dp">
+
+    <!-- Red Button -->
+    <Button
+        android:id="@+id/btnRed"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="RED"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"/>
+
+    <!-- Blue Button -->
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="BLUE"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"/>
+
+    <!-- Green Button -->
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="GREEN"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"/>
+
+    <!-- Yellow Button -->
+    <Button
+        android:id="@+id/btnYellow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="YELLOW"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:textColor="@android:color/white"/>
+
+</GridLayout>
